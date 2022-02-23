@@ -1,9 +1,10 @@
-.App {
+
+.App{
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -27,6 +28,41 @@
 .App-link {
   color: #61dafb;
 }
+
+.add-to-cart img{
+ width: 71px;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+
+}
+
+.cart-wrapper{
+  width: 751px;
+    height: 237px;
+    font-weight: 500;
+    border: 1px solid;
+    margin: 52px;
+
+}
+.img-wrapper img{
+  width: 89px;
+  margin: 59px;
+  position: absolute;
+  margin-left: -111px;
+  top: 93px;
+}
+.btn-wrapper button{
+      font-size: 15px;
+    border-color: chocolate;
+    background-color: red;
+   padding: 10px;
+    border-radius: 4px;
+    margin-top: 63px;
+   margin-left: 612px;
+  top: 28px;
+}
+
 
 @keyframes App-logo-spin {
   from {
